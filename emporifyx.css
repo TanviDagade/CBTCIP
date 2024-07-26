@@ -1,0 +1,113 @@
+body {
+    font-family: times New 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    }
+    
+    .navbar {
+    background-color: #535151;    
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .nav-item {
+    margin-right: 20px;
+    color: white;
+    }
+    
+    .nav-item:hover {
+    background-color: #444;
+    color: wheat;
+    }
+    
+    .hero-section {
+    padding: 20px;
+    text-align: center;
+    }
+
+    .hero-section h1{
+      font-weight: 600;
+      font-size: xx-large;
+      background-position: center;
+    }
+    
+    .product-grid { 
+     background-size: cover;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .product-card img{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      position: center;
+    }
+    
+    .product-card {
+    height: 400px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-card:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    }
+    
+    .btn-primary {
+        height: 30px;
+        background-color: #fffefe;
+        color: #000000;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .btn-primary:hover {
+        background-color:#5f4f4f;
+      }
+      
+      .btn-secondary {
+        background-color: #666;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .btn-secondary:hover {
+        background-color: #777;
+      }
+      
+      .section{
+        height: 200%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        background-color: black;
+      }
+      
+      .merchant-section{
+        margin-right: 5%;
+      }
+
+      .customer-section{
+        margin-left: 5%;
+      }
+
+      .footer{
+        margin-left: 5%;
+      }
